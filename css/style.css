@@ -27,6 +27,14 @@ a:hover {
     background-color: #f7c08a !important;
 }
 
+.secondary-text {
+    color: white !important;
+}
+
+.secondary-bg {
+    background-color: #333 !important;
+}
+
 .btn {
     font-size: 18px;
     background: #333;
@@ -129,6 +137,14 @@ a:hover {
     text-align: center;
 }
 
+#features .box h3 {
+    margin: 10px auto auto auto;
+}
+
+#features .box p {
+    margin: 30px auto auto auto;
+}
+
 .box {
     width: 33.3%;
     float: left;
@@ -203,4 +219,37 @@ a:hover {
     border-radius: 50%;
 }
 
+/* CONTACT FORM */
+#contact-form {
+    background-color: white;
+    line-height: 30px;
+    padding: 20px;
+}
 
+#contact-form .btn {
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#contact-form h1 {
+    color: #f7c08a;
+    margin-bottom: 30px;
+}
+
+#contact-form p {
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+
+#contact-form .form-entry {
+    margin-bottom: 10px;
+}
+
+#contact-form .form-entry input,
+#contact-form .form-entry textarea{
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
