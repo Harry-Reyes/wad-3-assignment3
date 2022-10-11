@@ -248,8 +248,12 @@ a:hover {
 }
 
 #contact-form .form-entry input,
-#contact-form .form-entry textarea{
+#contact-form .form-entry textarea {
     display: block;
     padding: 5px;
     width: 100%;
+}
+
+#contact-form .form-entry button {
+    cursor: pointer;
 }
